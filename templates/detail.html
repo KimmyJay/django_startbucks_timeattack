@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for drink in drinks %}
+    <p>{{ drink.name }}</p>
+    <li>{{ drink.nutrition }}</li>
+{% endfor %}
+
+
+</body>
+</html>
